@@ -5,10 +5,12 @@ import FixturesList from "../components/lists/FixturesList";
 import ResultsList from "../components/lists/ResultsList";
 import LeagueTable from "../components/tournaments/LeagueTable";
 import ScorersList from "../components/lists/ScorersList";
+import TeamsDropdown from "../components/dropdowns/TeamsDropdown";
 
 const TournamentDisplay = ({ tournament }) => {
   let results = null;
   let fixtures = null;
+  
   if (tournament.matches) {
     results = tournament.matches.filter((match) => match.completed);
     fixtures = tournament.matches.filter((match) => !match.completed);
@@ -23,6 +25,7 @@ const TournamentDisplay = ({ tournament }) => {
       <Link to={"/tournaments/" + tournament.id + "/fixtures/new"}>Add</Link>
     </button>
   );
+
   return (
     <>
       <header>

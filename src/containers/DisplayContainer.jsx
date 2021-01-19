@@ -75,7 +75,7 @@ class DisplayPage extends Component {
             items={this.state.itemList}
             onClick={this.handleSelectItem}
           />
-          <Link to={"/" + collection + "/new"}>Add new</Link>
+          <Link to={"/" + collection + "/new"}><div className="add-new-btn">Add new</div></Link>
         </section>
         <section id="main">{container}</section>
       </div>

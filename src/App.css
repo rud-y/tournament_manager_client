@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  width: 100%;
 }
 
 body {
@@ -24,7 +25,7 @@ h6 {
 
 .page {
   width: 90%;
-  min-height: 80vh;
+  min-height: 95vh;
   margin-left: 8%;
   display: flex;
   background-color: whitesmoke;
@@ -74,6 +75,22 @@ a > #logo:hover {
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.35);
 }
 
+.add-new-btn,
+button {
+  color: black;
+  background-color: #bee7e8;
+  border: solid 0.1rem #7d8cca;
+  text-align: center;
+  padding: 0.1rem;
+  width: 6rem;
+}
+button:hover,
+.add-new-btn:hover {
+  background-color: #7d8cca;
+  transition: all 0.5s ease;
+  border: solid 0.1rem #bee7e8;
+}
+
 /* Other pages */
 #display-page,
 #submission-page {
@@ -90,14 +107,14 @@ a > #logo:hover {
 }
 
 #main {
-  width: 80%;
+  width: 82%;
   background-color: #7d8cca;
   /* background-color: #726DA8; */
 }
 
 #content-wrapper {
   width: 100%;
-  height: 100%;
+  height: 90%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -130,7 +147,7 @@ form {
 input,
 select {
   display: block;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   background-color: honeydew;
   border: solid 0.01rem;
   font-size: 1rem;
@@ -139,7 +156,7 @@ select {
 .input-inline,
 #form-fixture-create > input {
   display: inline;
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 input[type="number"] {
