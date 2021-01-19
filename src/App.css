@@ -5,7 +5,8 @@
 body {
   font-family: "Oxygen", sans-serif;
   background-image: url("/images/background/stadium-lights.jpg");
-  background-size: 110%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1,
@@ -22,9 +23,9 @@ h6 {
 }
 
 .page {
-  width: 80%;
+  width: 90%;
   min-height: 80vh;
-  margin-left: 10%;
+  margin-left: 8%;
   display: flex;
   background-color: whitesmoke;
   border: 1px solid black;
@@ -56,7 +57,7 @@ h6 {
   height: 100%;
   width: 100%;
   background-image: url("/images/soccer_icons/png/001-trophy.png");
-  background-size: contain;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -80,7 +81,7 @@ a > #logo:hover {
 
 #sidebar,
 #main {
-  min-height: 60%;
+  min-height: 80%;
 }
 
 #sidebar {

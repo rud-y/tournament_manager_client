@@ -30,7 +30,7 @@ class CountriesDropdown extends Component {
     return (
       <select name="countryId" onChange={this.handleChange}>
         <option disabled selected value>
-          Select country...
+          -Select country-
         </option>
         {options}
       </select>

@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
-
 import DisplayContainer from "./containers/DisplayContainer";
 import SubmissionContainer from "./containers/SubmissionContainer";
 import ErrorPage from "./pages/ErrorPage";
